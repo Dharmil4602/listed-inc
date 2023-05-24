@@ -19,7 +19,7 @@ function Login() {
                   alt="google-logo"
                 />
               </div>
-              <div className="google-sign-in-text">Sign in with Google</div>
+              <div className="text">Sign in with Google</div>
             </div>
             <div className="company-sign-in apple">
               <div className="apple-logo">
@@ -28,7 +28,29 @@ function Login() {
                   alt="apple-logo"
                 />
               </div>
-              <div className="apple-sign-in-text">Sign in with Apple</div>
+              <div className="text">Sign in with Apple</div>
+            </div>
+          </div>
+
+          <div className="login-form">
+            <div className="login-form-input">
+              <div className="login-form-input-title">Email address</div>
+              <input type="text" className="login-form-input-text" />
+            </div>
+            <div className="login-form-input">
+              <div className="login-form-input-title">Password</div>
+              <input type="password" className="login-form-input-text" />
+            </div>
+            <div className="forgot-password">
+              <div className="forgot-password-text">Forgot password?</div>
+            </div>
+            <div className="login-button">Sign In</div>
+          </div>
+
+          <div className="login-form-footer">
+            <div className="login-form-footer-text">
+              Don't have an account?{" "}
+              <span className="sign-up">Register Here</span>
             </div>
           </div>
         </div>
