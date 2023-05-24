@@ -41,3 +41,9 @@
 .sidebar-menu li span {
     margin-bottom: 10px;
 }
+
+.sidebar-footer {
+    position: relative;
+    top: 200px;
+    right: 20px;
+}

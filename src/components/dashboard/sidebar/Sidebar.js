@@ -33,6 +33,10 @@ function Sidebar() {
           </li>
         </ul>
       </div>
+      <div className="sidebar-footer">
+        <h4>Help</h4>
+        <h4>Contact Us</h4>
+      </div>
     </div>
   );
 }
