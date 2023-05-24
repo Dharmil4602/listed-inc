@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #de1f1f; */
+    margin: 20px;
+    min-height: 50px;
+    min-width: 100%;
+    width: 80vw;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search {
+    margin: 0 20px;
+}
+
+.search input {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+}
+
+.notification-bell {
+    margin: 0 20px;
+}
+.profile-img img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
