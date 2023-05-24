@@ -5,6 +5,7 @@ import './dashboard.css'
 import Sidebar from './sidebar/Sidebar'
 import Navbar from './navbar/Navbar'
 import Cards from './cards/Cards'
+import Activities from './activities/Activities'
 
 function Dashboard() {
     const navigate = useNavigate()
@@ -19,10 +20,10 @@ function Dashboard() {
         <Sidebar/>
       </div>
       <div className="main-component">
-        <Navbar/>
+        <Navbar handleLogout={handleLogout}/>
         <Cards/>
+        <Activities/>
       </div>
-        {/* <button onClick={handleLogout}>Logout</button> */}
     </div>
   )
 }

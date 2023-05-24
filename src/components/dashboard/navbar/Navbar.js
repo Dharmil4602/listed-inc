@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import Bell from '../../../assets/bell.png'
-function Navbar() {
+function Navbar(props) {
   return (
     <div className="navbar">
       <div className="navbar-left">
@@ -21,6 +21,9 @@ function Navbar() {
               alt=""
             />
           </div>
+        </div>
+        <div className="logout-button">
+          <button onClick={props.handleLogout}>Logout</button>
         </div>
       </div>
     </div>
