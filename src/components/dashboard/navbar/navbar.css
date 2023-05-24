@@ -1,8 +1,6 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    /* background-color: #de1f1f; */
-    margin: 20px;
     min-height: 50px;
     min-width: 100%;
     width: 80vw;

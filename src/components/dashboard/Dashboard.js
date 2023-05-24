@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import './dashboard.css'
 import Sidebar from './sidebar/Sidebar'
 import Navbar from './navbar/Navbar'
+import Cards from './cards/Cards'
 
 function Dashboard() {
     const navigate = useNavigate()
@@ -17,8 +18,9 @@ function Dashboard() {
       <div className="sidebar-component">
         <Sidebar/>
       </div>
-      <div className="navbar-component">
+      <div className="main-component">
         <Navbar/>
+        <Cards/>
       </div>
         {/* <button onClick={handleLogout}>Logout</button> */}
     </div>
