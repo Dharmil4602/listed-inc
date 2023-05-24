@@ -1,0 +1,41 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    height: 85vh;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #000000;
+    color: aliceblue;
+    margin: 20px;
+}
+
+.sidebar-heading h1 {
+    text-align: center;
+}
+
+.sidebar-menu{
+    display: flex;
+    width: 100%;
+    /* margin-top: 20px; */
+}
+
+.sidebar-menu img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.sidebar-menu ul li {
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sidebar-menu li span {
+    margin-bottom: 10px;
+}
